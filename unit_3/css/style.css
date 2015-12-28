@@ -5,6 +5,7 @@ body {
   color: #F4F0E8;
   font-family: Helvetica;
   font-size: 18px;
+  margin:30px;
 }
 hr{
 	color: #191626;
@@ -30,7 +31,6 @@ p {
 	text-align:center;
 	letter-spacing: 3px;
 	text-transform: capitalize;
-
 }
 a {
 	text-decoration: none;
