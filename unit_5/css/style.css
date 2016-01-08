@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Lora|Open+Sans:400,600,700,800,300);
+body {
+  text-align: left;
+  color: #000;
+  font-family: 'Lora', georgia, serif;
+  font-size: 18px;
+  margin:30px;
+}
+div {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+}
+.wrapper {
+
+}
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+    font-family: 'Open Sans', Helvetica, sans-serif;    text-transform: uppercase;
+}
+nav ul {
+	text-align: center;
+}
+nav ul li{ 
+    list-style:none;
+	display: inline;
+	text-transform: uppercase;
+	margin: 0 30px;
+	letter-spacing: .3em;
+}
+h1 {
+	font-family: 'Open Sans', Helvetica, sans-serif; 
+	font-size: 4em;
+	font-weight: 600;
+	letter-spacing:6px;
+	text-align: center;
+	text-transform:uppercase;
+	color: #000;
+}
+h2{
+	font-family: 'Open Sans', Helvetica, sans-serif; 
+	font-weight: 600;
+	font-size: 1.5em;
+	color: #000;
+	text-transform: uppercase;
+}
+p {
+	line-height: 1.5em;
+}
+a {
+	text-decoration: none;
+	color:#000;
+}
+a:hover {
+	text-decoration: underline;
+	color:#000;
+}
+section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+#work {
+
+}
+.row{
+
+}
+
+#slogan{
+	font-style: italic;
+	text-align:center;
+	letter-spacing: 3px;
+	text-transform: capitalize;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
