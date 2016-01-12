@@ -6,11 +6,10 @@ body {
   font-size: 18px;
   margin:30px;
 }
-div {
-	background-color: #FFE2B8;
+section {
+    background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
-
 }
 .wrapper {
 
@@ -63,18 +62,19 @@ a:hover {
 	text-decoration: underline;
 	color:#000;
 }
-section {
-    background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-}
+
 #work {
 
 }
-.row{
+.row-1{
 
 }
+.row-2{
 
+}
+.row-3{
+
+}
 #slogan{
 	font-style: italic;
 	text-align:center;
