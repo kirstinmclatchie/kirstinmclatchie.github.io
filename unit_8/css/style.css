@@ -255,10 +255,8 @@ textarea {
 
 @media screen and (device-width: 360px) and (device-height: 640px) {
 
-    nav ul {
-        float: none;
-    }
     nav ul li{ 
+        float: none;
         display: block;
     }
 
@@ -278,9 +276,13 @@ textarea {
         float: none;
     }
 
+    h1, h2, {
+        text-align: center;
+    }
+
     #lrg-photo {
         float: none;
-        width: 100%;
+        width: auto;
     }
 
     #top-right {
