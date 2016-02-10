@@ -4,19 +4,20 @@
 body {
     color: #5C5B6F;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+    font-size: 16px;
 }
 
 header {
     float: left;
-    margin: 2% 0% 3% 0%;
+    margin: 20px 0px 50px 0px;
 }
 
 nav {
     text-transform: uppercase;
     letter-spacing: .1em;
     float: right;
-    margin: 4% 5% 0% 0%;
+    margin: 30px 50px 0 0 ; 
+
 }
 nav ul {
     float: right;
@@ -24,31 +25,35 @@ nav ul {
 nav ul li{ 
     list-style: none;
     display: inline;
+    margin: 10px;
+    padding-left: 5px;
 }
 
 nav a:hover {
     border-bottom: 2px solid;
-    padding-bottom: 3%;}
+    padding-bottom: 3px;}
 
 .wrapper {
-    width: 90%;
-    margin: 3% 5%;
+    width: 1025px;
+    margin: 0 auto;
 }
 
 section {
     clear: both;
+    width: 100%;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
+#headline {
+    font-size: 2.5em;
+    font-weight: 300;
+    color: #
 
+}
 
 footer {
     background-color: #5C5B6F;
     color: #DFF1E9;
-    padding: 2% 0 1% 0;
+    padding: 23px 0 10px 0;
     text-align: center;
     font-size: .7em;
     letter-spacing: .1em;
@@ -61,8 +66,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-weight: 300;
     font-size: 3.5em;
-    letter-spacing: .05em;
+    letter-spacing:3px;
     float: left;
+    padding: 0 0 5px 0;
     color: #8BCFBA;
 }
 
@@ -79,21 +85,21 @@ h3 {
     text-transform: uppercase;
     letter-spacing: .07em;
     color: #8BCFBA;
-    padding: 5% 0 2% 0;
+    padding: 50px 0 20px 0;
 }
 
 h4 {
     font-weight: 300;
     font-style: italic;
     font-size: 1.75em;
-    padding: 0 0 2% 0;
+    padding: 0 0 20px 0;
 }
 
 h5 {
     font-weight: 600;
     font-size: 1.3em;
     color: #5c5b6f;
-    padding-bottom: 2%;
+    padding-bottom: 25px;
 }
 
 h6 {
@@ -101,13 +107,13 @@ h6 {
     font-size: 1.3em;
     color: #5c5b6f;
     padding-top: 25px;
-    padding-bottom: 2%;
+    padding-bottom: 10px;
 
 }
 
 p {
     line-height: 1.5em;
-    padding: 0 0 3% 0;
+    padding: 0 0 15px 0;
 }
 
 a {
@@ -126,7 +132,7 @@ ul {
 
 ul li {
     display: inline;
-    padding: 3% 3% 0 0;
+    padding: 3px 3px 0 0;
 }
 
 button {
@@ -145,50 +151,68 @@ button {
 
 /* Photo Grid */
 
-#lrg-photo {
-    width: 66%;
-    float: left;
+#photogrid img {
+    margin-bottom: 15px;
+
 }
 
-#top-right {
+#photogrid button {
+    background-color: #8bcfba;
+    font-size: .8em;
+    letter-spacing: .2em;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    padding: 13px 15px;
+    margin: 0 55px 0 0;
+    cursor: pointer;
     float: right;
-    width: 31%;
-    padding-bottom: 3%;
+}
 
+.left-col-top {
+    width: 64%;
+    float: left;
+    margin-right: 5px;
+}
+
+.right-col-top {
+    float: right;
+    margin-bottom: 10px;
 }
  
-#btm-left {
+.left-col-btm {
     float: left;
-    width: 31%;
+    width: 30%;
 
 }
 
-#btm-right {
+.right-col-btm {
     float: right;
     width: 67%;
 }
 
+#btm-row ul{
+    display: inline;
+}
 
 /* ABOUT */ 
 
-
-aside {
+#left {
     padding: 0;
     float: left;
-    width: 40%; 
-    height: 100%;
+    width: 40%;
 }
 
-article { 
-    padding: 0 2% 0 3%;
+#right {
+    padding: 0 50px 0 30px;
     float: right;   
     width: 60%;
-    height: 100%;
 }
 
 /* CONTACT */ 
 #contact img {
-    padding: 1%;
+    padding: 5px;
 }
 #connect { 
     float: right;
@@ -204,10 +228,10 @@ form {
 
 input {
     width: 90%;
-    padding: 2%;
-    margin: 0 0 4% 0;
+    padding: 10px;
+    margin: 0 0 30px 0;
     box-sizing: border-box;
-    border: .2em solid #8bcfba;
+    border: 2px solid #8bcfba;
     background-color: #fff;
     color: #8bcfba;
     font-size: .8em;
@@ -222,7 +246,7 @@ input {
     font-weight: 700;
     text-transform: uppercase;
     border: none;
-    padding: 2% 3%;
+    padding: 13px 15px;
     margin: 2% 10% 4% 0;
     cursor: pointer;
     float: right;
@@ -230,11 +254,11 @@ input {
 
 textarea {
     width: 90%;
-    height: 20%;
-    padding: 3%;
-    margin-bottom: 2%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
     box-sizing: border-box;
-    border: .2em solid #8bcfba;
+    border: 2px solid #8bcfba;
     background-color: #fff;
     resize: none;
     color: #8bcfba;
@@ -249,51 +273,4 @@ textarea {
     content: " ";
     clear: both;
     height: 0;
-}
-
-/* MEDIA QUERIES */
-
-@media screen and (device-width: 360px) and (device-height: 640px) {
-
-    nav ul {
-        float: none;
-    }
-    nav ul li{ 
-        display: block;
-    }
-
-    header{
-        float: none;
-    }
-
-    aside { 
-        float: none;
-    }
-
-    article { 
-        float: none;
-    }
-
-    section { 
-        float: none;
-    }
-
-    #lrg-photo {
-        float: none
-        width: 100%;
-    }
-
-    #top-right {
-        float: none;
-
-    }
-     
-    #btm-left {
-        float: none;
-
-    }
-
-    #btm-right {
-        float: none;
-    }
 }
