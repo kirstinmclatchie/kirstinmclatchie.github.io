@@ -32,18 +32,18 @@ nav a:hover {
 
 .wrapper {
     width: 90%;
-    margin: 0 auto;
+    margin: 3% 5%;
 }
 
 section {
     clear: both;
-    width: 100%;
 }
 
-#headline {
-    font-size: 2.5em;
-    font-weight: 300;
+img {
+    max-width: 100%;
+    height: auto;
 }
+
 
 footer {
     background-color: #5C5B6F;
@@ -145,63 +145,45 @@ button {
 
 /* Photo Grid */
 
-#photogrid img {
-    margin-bottom: 2%;
-
-}
-
-#photogrid button {
-    background-color: #8bcfba;
-    font-size: .8em;
-    letter-spacing: .2em;
-    color: #fff;
-    font-weight: 700;
-    text-transform: uppercase;
-    border: none;
-    padding: 1.5% 2%;
-    margin: 0 0 0 20%;
-    cursor: pointer;
-    float: right;
-}
-
-.left-col-top {
-    width: 64%;
+#lrg-photo {
+    width: 66%;
     float: left;
-    margin-right: 1%;
 }
 
-.right-col-top {
+#top-right {
     float: right;
-    margin-bottom: 1%;
+    width: 31%;
+    padding-bottom: 3%;
+
 }
  
-.left-col-btm {
+#btm-left {
     float: left;
-    width: 0%;
+    width: 31%;
 
 }
 
-.right-col-btm {
+#btm-right {
     float: right;
     width: 67%;
 }
 
-#btm-row ul{
-    display: inline;
-}
 
 /* ABOUT */ 
 
-#left {
+
+aside {
     padding: 0;
     float: left;
-    width: 40%;
+    width: 40%; 
+    height: 100%;
 }
 
-#right {
+article { 
     padding: 0 2% 0 3%;
     float: right;   
     width: 60%;
+    height: 100%;
 }
 
 /* CONTACT */ 
@@ -267,4 +249,55 @@ textarea {
     content: " ";
     clear: both;
     height: 0;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (device-width: 360px) and (device-height: 640px) {
+
+    nav ul {
+        float: none;
+    }
+    nav ul li{ 
+        display: block;
+    }
+
+    header{
+        float: none;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto
+    }
+
+    aside { 
+        float: none;
+    }
+
+    article { 
+        float: none;
+    }
+
+    section { 
+        float: none;
+    }
+
+    #lrg-photo {
+        float: none;
+    }
+
+    #top-right {
+        float: none;
+
+    }
+     
+    #btm-left {
+        float: none;
+
+    }
+
+    #btm-right {
+        float: none;
+    }
 }
