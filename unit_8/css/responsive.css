@@ -1,0 +1,100 @@
+/* MEDIA QUERIES */
+
+@media screen and (device-width: 360px) and (device-height: 640px) {
+
+    nav {
+        float: none;
+        display: block;
+        margin: 2%;
+    }
+
+    nav a {
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        text-decoration: none;
+        color: #fff;
+        background-color: #ED296F;
+        padding: .75em 1em;
+    }
+
+    h1, h2 {
+        text-align: center;
+    }
+
+    h1 {
+        float: none;
+        font-size: 8em;
+    }
+
+ 
+    h2 {
+        font-size: 6em;
+        margin: 1em 0; 
+    }
+
+    h3 {
+        font-size: 4em;
+        margin: .5em .3em; 
+    }
+
+    h4 {
+        font-size: 3em;
+        margin: .5em; 
+    }
+
+    h5 { 
+        font-size: 3em;
+        margin: .5em; 
+    }
+
+    p {
+        line-height: 2em;
+        margin: 1em; 
+    }
+
+    .twothird, .onethird {
+        float: none;
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    #about img {
+        float: none;
+        width: 100%;
+    }
+    
+    .connect { 
+        float: none;
+        width: 100%;
+    }
+
+    .contact-info {
+        line-height: 2.5em;
+        margin: 1em;
+    }
+
+    .social img {
+        width: auto;
+        margin: 4%;
+    }
+
+    address {    
+        line-height: 2em;
+        margin: 1em; 
+    }
+
+    form, input, textarea, button { 
+        width: 100%;
+    }
+    
+    input {
+        font-size: 2em;
+    }
+
+    textarea { 
+        font-size: 2em;
+    }
+    button { 
+        font-size: 2em;
+    }
+}
