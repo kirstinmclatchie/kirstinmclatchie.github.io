@@ -33,8 +33,7 @@ article {
 
 footer {
 	background-color: #590100;
-	height: 20em;
-
+	height: 20em; 
 }
 
 h1 {
@@ -152,8 +151,8 @@ a:hover {
 .title-three {
 	padding: 3em 5em 1em 2em;
 	text-align: center;
-	color: #F0F1F3;
 	font-size: 2.5em;
+	color: rgba(240,241,243,.8);
 }
 
 .poem-three {
@@ -164,7 +163,7 @@ a:hover {
 	width: 23.25%;
 	height: 11em; 
 	float: left;
-	background-color: rgba(162,170,189,.65);
+	background-color: rgba(240,241,243,.65);
 	padding: 1em;
 	margin: 3em .5em;
 
@@ -173,43 +172,31 @@ a:hover {
 /* POEM FOUR */ 
 
 #four {
-
-}
-
-.title-four{
+	background: url("../images/coo.jpg") no-repeat center center fixed;
+	background-size: cover;
 }
 
 .poem-four {
-	width: 50%;
+	width: 60%;
 	float: left;
-	padding: 0 2.5em;
+	background-color: rgba(240,241,243,.65);
+	padding: 4em;
+	color: #590100;
 
 }
 
-.four-two {
-	width: 50%;
-	float: left;
-	padding: 0 2.5em;
-
-}
-
-.four-three {
-	width: 50%;
-	float: left;
-	padding: 0 2.5em;
+#title-four{
+	padding: 2em 0;
 
 }
 
 
-.four-four {
-	width: 50%;
-	float: left;
-	padding: 0 2.5em;
 
-}
+/* FOOTER */
 
 #mary {
 	width: 33.33%; 
+	height: 20em;
 	float: left;
 	text-align: center;
 	color: #F0F1F3;
@@ -221,14 +208,26 @@ a:hover {
     margin-top: -6em ;
 }
 
-#photo-credit {
+
+#bio {
 	width: 33.33%; 
+	height: 20em;
 	float: left;
+	color: #F0F1F3;
+	font-size: .8em;
+	padding: 3em;
 }
 
-#kirstin {
+#credit {
 	width: 33.33%; 
+	height: 20em;
 	float: left;
+	color: #F0F1F3;
+	padding: 3em; 
+}
+
+#credit a {
+
 }
 
 .clearfix:after {
