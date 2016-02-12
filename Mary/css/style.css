@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:600,700|Noto+Serif);
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	font-family: 'Noto Serif', serif;;
+	font-size: 18px;
+	color: #262125;
+}
+
+header {
+	background-color: #f18885;
+
+
+}
+
+nav {
+
+
+}
+
+nav a {
+	font-family: 'Josefin Slab', serif;
+	font-size: 1em;
+	background-color: #590100;
+	color: #f0f1f3;
+	padding: .5em;
+	margin: 0;
+}
+
+article {
+
+}
+
+footer {
+	background-color: #590100;
+
+}
+
+h1 {
+	font-family: 'Josefin Slab', serif;
+	font-size: 10em; 
+	padding: 1em;
+}
+
+h2{
+	font-family: 'Josefin Slab', serif;
+	font-size: 4em;
+
+}
+
+
+h3{
+
+}
+
+p{
+	line-height: 1.75em;
+
+}
+
+a {
+	font-family: 'Josefin Slab', serif;
+	font-size: 1em;
+	color: #f0f1f3;
+	padding: .5em
+}
+
+a:hover {
+	text-decoration: none;
+
+}
+
+.circle{
+	width:24em;
+	height:24em;
+	border-radius: 50%;
+	overflow: hidden;
+	margin:auto;
+}
+
+.wrapper{
+
+	width:68em;
+	margin:auto;
+}
+
+#one {
+	background: url("../images/fern.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+.title-one {
+	width: 63.66%;
+	float: left;
+	color:#F0F1F3;
+	font-size: 3em;
+	padding: 6em 1.5em;
+	line-height: 2.5em;
+	text-align: right;
+}
+
+.poem-one {
+	width: 33.33%;
+	float: left;
+	background-color: rgba(240,241,243,.75);
+	padding: 3.5em;
+
+}
+
+#two{
+	background-color: #F0F1F3;
+
+}
+
+.title-two {
+	padding: 3em
+
+}
+
+.poem-two {
+	width: 40%;
+	float: left;
+	margin: 0 3em; 
+
+}
+
+#ptwo-pic {
+	float: left;
+}
+
+#three {
+
+}
+
+.title-three {
+
+}
+
+.poem-four {
+
+}
+
+#four {
+
+}
+
+.title-four{
+	background: url("../images/fern.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+.poem-four {
+	width: 50%;
+	float: left;
+	padding: 0 2.5em;
+
+}
+
+.four-two {
+	width: 50%;
+	float: left;
+	padding: 0 2.5em;
+
+}
+
+.four-three {
+	width: 50%;
+	float: left;
+	padding: 0 2.5em;
+
+}
+
+
+.four-four {
+	width: 50%;
+	float: left;
+	padding: 0 2.5em;
+
+}
+
+#mary {
+	width: 33.33%; 
+	float: left;
+}
+
+#photo-credit {
+	width: 33.33%; 
+	float: left;
+}
+
+#kirstin {
+	width: 33.33%; 
+	float: left;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
