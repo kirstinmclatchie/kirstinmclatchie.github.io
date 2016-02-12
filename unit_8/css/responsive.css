@@ -14,7 +14,8 @@
         text-decoration: none;
         color: #fff;
         background-color: #ED296F;
-        padding: .75em 1em;
+        padding: .75em 0;
+        width: 100%;
     }
 
     h1, h2 {
@@ -52,7 +53,13 @@
         margin: 1em; 
     }
 
-    .twothird, .onethird {
+    .twothird {
+        float: none;
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .onethird {
         float: none;
         width: 100%;
         padding: 0 2%;

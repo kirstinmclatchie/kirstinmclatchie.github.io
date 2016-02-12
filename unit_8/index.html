@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<title>Kirstin McLatchie // Digital Design &amp; Content Strategy in Los Angeles</title>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Web design and content strategy in Los Angeles and Pasadena">
 	<meta name="keywords" content="HTML,CSS, Web Design, Graphic Design, Print Design, Content Strategy, Social Media">
 	<meta name="author" content="Kirstin McLatchie">
@@ -20,6 +21,7 @@
 	</script>
 </head>
 <body>
+	<div class="wrapper">
 		<header class="clearfix">
 			<h1>kirstin mclatchie</h1>
 			<nav class="clearfix">
@@ -27,44 +29,39 @@
 				<a href="#contact">Connect</a>
 			</nav>
 		</header>
-		<main class="wrapper">
+		<main>
 			<section id="gallery" class="clearfix"> 
-				<a href="https://www.behance.net/gallery/33474195/Digital-Media-Archive-Concepts" class="twothird">
-					<img src="images/kirstinmclatchie_main_sova.jpg" alt="SOVA Media Archive">
+				<a href="https://www.behance.net/gallery/33474195/Digital-Media-Archive-Concepts" id="twothird"><img src="images/kirstinmclatchie_main_sova.jpg" alt="SOVA Media Archive">
 					<!--<div class="overlay">
 						<h3>SOVA Media Archive</h3>
 						<p>Web Design / User Experience</p>
 					</div>-->
 				</a>
-				<a href="#" class="onethird">
-					<img src="images/kirstinmclatchie_sm_julagis.jpg">
+				<a href="#" id="onethird"><img src="images/kirstinmclatchie_sm_julagis.jpg">
 					<!--<div id="overlay">
 						<h3>Jula GIS</h3>
 						<p>Business Card Design</p>
 					</div>-->
 				</a>
-				<a href="#" class="onethird">
-					<img src="images/kirstinmclatchie_sm_rtnweb.jpg">
+				<a href="#" id="onethird"><img src="images/kirstinmclatchie_sm_rtnweb.jpg">
 					<!--<div id="overlay">
 						<h3>Roadtrip Nation</h3>
 						<p>Web Design / User Experience / Content Strategy</p>
 					</div>-->
 				</a>
-				<a href="#" class="onethird">
-					<img src="images/kirstinmclatchie_sm_rtntour.jpg">
-					<!--<div id="overlay">
-						<h3>SOVA Media Archive</h3>
-						<p>Web Design / User Experience</p>
-					</div>-->				
-				</a>
-				<a href="#" class="twothird">
+				<a href="#" id="onethird"><img src="images/kirstinmclatchie_sm_rtntour.jpg">
 					<!--<div id="overlay">
 						<h3>SOVA Media Archive</h3>
 						<p>Web Design / User Experience</p>
 					</div>-->
-					<img src="images/kirstinmclatchie_wide_liveactive.jpg">
 				</a>
-			</section>	
+				<a href="#" id="twothird"><img src="images/kirstinmclatchie_wide_liveactive.jpg">
+					<!--<div id="overlay">
+						<h3>SOVA Media Archive</h3>
+						<p>Web Design / User Experience</p>
+					</div>-->
+				</a>
+			</section>
 			<section id="about" class="clearfix">
 				<h2>About</h2>
 				<img src="images/kirstinmclatchie.jpg">
@@ -103,6 +100,7 @@
 					</div>
 			</section>
 		</main>	
+	</div>
 	<footer>
 		<p>&copy; Kirstin McLatchie 2006-2016. All rights reserved.</p>
 	</footer>
