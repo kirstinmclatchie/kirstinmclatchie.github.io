@@ -1,5 +1,4 @@
 @media screen and (device-width: 768px) and (device-height: 640px) {
-
     body {
         font-size: 1em;
     }
@@ -54,12 +53,9 @@
         float: none; 
         padding: 0;
     }
-
-    
 }
 
 @media screen and (device-width: 425px) and (device-height: 640px) {
-
     body {
         font-size: 1em;
     }
@@ -213,12 +209,10 @@
         width: 100%;
         font-size: 1em;
     }
-
 }
 
 
 @media screen and (device-width: 375px) and (device-height: 640px) {
-
  body {
         font-size: 1em;
     }
@@ -243,7 +237,6 @@
         text-align: center;
         border-bottom: .1em solid #fff; 
     }
-
     
     h1 {
         font-size: 1em;
@@ -280,7 +273,7 @@
         line-height: 1.5em; 
         padding-bottom: .75em;
         font-style: normal;
-}
+    }
 
     #gallery img {
         padding-bottom: .25em
