@@ -1,107 +1,572 @@
-/* MEDIA QUERIES */
+@media screen and (device-width: 768px) and (device-height: 640px) {
 
-@media screen and (device-width: 360px) and (device-height: 640px) {
+    body {
+        font-size: 1em;
+    }
+
+    header {
+        position: fixed;
+        width: 100%;
+        background-color: #DFF1E9;
+
+    }
 
     nav {
-        float: none;
-        display: block;
-        margin: 2%;
+        float: right;
+        padding: 1em 0;
+
+
     }
 
     nav a {
+        padding: .5em 1em;
         text-transform: uppercase;
-        letter-spacing: .1em;
+        font-size: .8em;
+        font-weight: 400;
+        letter-spacing: .05em;
+        color: #ED2983;
         text-decoration: none;
-        color: #fff;
-        background-color: #ED296F;
-        padding: .75em 0;
-        width: 100%;
     }
 
-    h1, h2 {
-        text-align: center;
-    }
-
-    h1 {
-        float: none;
-        font-size: 8em;
-    }
-
- 
-    h2 {
-        font-size: 6em;
-        margin: 1em 0; 
+    .wrapper {
+        width: 86em;
+        margin: auto;
     }
 
     h3 {
-        font-size: 4em;
-        margin: .5em .3em; 
+        font-size: 3em; 
+        padding: 0;
     }
 
-    h4 {
-        font-size: 3em;
-        margin: .5em; 
+    #services {
+        padding: 2em 0 0 2em 
     }
 
-    h5 { 
-        font-size: 3em;
-        margin: .5em; 
+    #serviceshead {
+        margin: 0; 
+        padding: 0;
+    } 
+
+    .design {
+        width: 100%;
+        float: none; 
+        padding: 0;
     }
+    .strategy {
+        width: 100%; 
+        float: none; 
+        padding: 0;
+    }
+
+    
+}
+
+@media screen and (device-width: 425px) and (device-height: 640px) {
+
+    body {
+        font-size: 1em;
+    }
+
+    header {
+        position: fixed;
+        text-align: center; 
+        height: 5em;
+    }
+
+    nav {
+        float: none;
+        margin: 0 0 0 0; 
+        background-color: #ED2983; 
+
+    }
+
+    nav a {
+        color: #fff;
+        font-size: 1em;
+        padding: 1.2em 0 ;
+        display: block;
+        text-align: center;
+        border-bottom: .1em solid #fff; 
+    }
+
+    
+    h1 {
+        text-align: center; 
+        float: none;
+        padding-top: 1em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        padding: 0 0 .5em 0;     
+}
+
+    h3 {
+        font-size: 3em; 
+        padding: 0 0 .5em 0;
+    }
+
+    a {
+        font-size: 1.2em;
+        padding-bottom: .5em;
+        text-decoration: none;
+    }
+    
 
     p {
-        line-height: 2em;
-        margin: 1em; 
+       font-size: 1.2em; 
     }
 
-    .twothird {
-        float: none;
-        width: 100%;
-        padding: 0 2%;
+    address {
+        font-size: 1.2em;
+        line-height: 1.5em; 
+        padding-bottom: .75em;
+        font-style: normal;
+}
+
+    #gallery img {
+        padding-bottom: .25em
     }
 
     .onethird {
-        float: none;
         width: 100%;
-        padding: 0 2%;
+        float: none;
+    }
+
+    .twothird {
+        width: 100%;
+        float: none;
+    }
+
+
+    #serviceshead {
+        margin: 0; 
+        padding: 0;
+    } 
+
+    .design {
+        width: 100%;
+        float: none; 
+        padding: 0;
+    }
+    .strategy {
+        width: 100%; 
+        float: none; 
+        padding: 0 0 1em 0;
     }
 
     #about img {
-        float: none;
         width: 100%;
-    }
-    
-    .connect { 
         float: none;
-        width: 100%;
+        padding: .5em 0 0 0; 
     }
 
-    .contact-info {
-        line-height: 2.5em;
-        margin: 1em;
+    #about p {
+        padding-right: 0; 
+    }
+
+    footer { 
+        background-color: #DFF1E9;
+        padding: 2em 2em; 
+    }
+
+    #contact {
+    }
+
+    #connect { 
+        width: 100%;
+        float: none;
+        padding: 0 0 0 0;
+    }
+
+    #connect>h5 { 
+            padding: 0 0 0 0; 
     }
 
     .social img {
         width: auto;
-        margin: 4%;
+        margin: .25em;
+        clear: both;
     }
 
-    address {    
-        line-height: 2em;
-        margin: 1em; 
+    #connect ul li {
+        display: inline;
     }
 
-    form, input, textarea, button { 
+    .contact-info {
+    display: block;
+    text-decoration: none;
+    line-height: 1.5em;
+    }
+
+    .social img {
+        width: auto;
+        padding: 1em .8em;
+    }
+
+    #connect ul li {
+        display: inline;
+
+    }
+
+    form {
+        float: none;
         width: 100%;
     }
-    
+
     input {
-        font-size: 2em;
+        width: 100%;
+        font-size: 1em;
     }
 
-    textarea { 
-        font-size: 2em;
+    button {
+        width: 100%;
+        font-size: 1em;
+
     }
-    button { 
-        font-size: 2em;
+
+    textarea {
+        width: 100%;
+        font-size: 1em;
     }
+
+}
+
+
+@media screen and (device-width: 375px) and (device-height: 640px) {
+
+ body {
+        font-size: 1em;
+    }
+
+    header {
+        position: fixed;
+        text-align: center; 
+        height: 5em;
+    }
+
+    nav {
+        float: none;
+        margin: 0 0 0 0; 
+        background-color: #ED2983; 
+    }
+
+    nav a {
+        color: #fff;
+        font-size: 1em;
+        padding: 1em 0 ;
+        display: block;
+        text-align: center;
+        border-bottom: .1em solid #fff; 
+    }
+
+    
+    h1 {
+        font-size: 1em;
+        text-align: center; 
+        float: none;
+        padding-top: 1em;
+    }
+
+    h2 {
+        font-size: 1em;
+        font-weight: 400;
+        padding: 0 0 .5em 0; 
+        text-align: center;    
+}
+
+    h3 {
+        font-size: 2.2em; 
+        padding: 0 0 .5em 0;
+    }
+
+    a {
+        font-size: 1.2em;
+        padding-bottom: .5em;
+        text-decoration: none;
+    }
+    
+
+    p {
+       font-size: 1.2em; 
+    }
+
+    address {
+        font-size: 1.2em;
+        line-height: 1.5em; 
+        padding-bottom: .75em;
+        font-style: normal;
+}
+
+    #gallery img {
+        padding-bottom: .25em
+    }
+
+    .onethird {
+        width: 100%;
+        float: none;
+    }
+
+    .twothird {
+        width: 100%;
+        float: none;
+    }
+
+
+    #serviceshead {
+        margin: 0; 
+        padding: 0;
+    } 
+
+    .design {
+        width: 100%;
+        float: none; 
+        padding: 0;
+    }
+    .strategy {
+        width: 100%; 
+        float: none; 
+        padding: 0 0 1em 0;
+    }
+
+    #about img {
+        width: 100%;
+        float: none;
+        padding: .5em 0 0 0; 
+    }
+
+    #about p {
+        padding-right: 0; 
+    }
+
+    footer { 
+        background-color: #DFF1E9;
+        padding: 2em 2em; 
+    }
+
+    #contact {
+    }
+
+    #connect { 
+        width: 100%;
+        float: none;
+        padding: 0 0 0 0;
+    }
+
+    #connect>h5 { 
+            padding: 0 0 0 0; 
+    }
+
+
+    #connect ul li {
+        display: inline;
+    }
+
+    .contact-info {
+    display: block;
+    text-decoration: none;
+    line-height: 1.5em;
+    }
+
+    .social img {
+        width: auto;
+        padding: .5em .75em .5em 0;
+    }
+
+    #connect ul li {
+        display: inline;
+
+    }
+
+    form {
+        float: none;
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    button {
+        width: 100%;
+        font-size: 1em;
+
+    }
+
+    textarea {
+        width: 100%;
+        font-size: 1em;
+    }   
+
+}
+
+@media screen and (device-width: 320px) and (device-height: 640px) {
+
+ body {
+        font-size: 1em;
+    }
+
+    header {
+        position: fixed;
+        text-align: center; 
+        height: 5em;
+    }
+
+    nav {
+        float: none;
+        margin: 0 0 0 0; 
+        background-color: #ED2983; 
+    }
+
+    nav a {
+        color: #fff;
+        font-size: 1em;
+        padding: 1em 0 ;
+        display: block;
+        text-align: center;
+        border-bottom: .1em solid #fff; 
+    }
+
+    
+    h1 {
+        font-size: 1em;
+        text-align: center; 
+        float: none;
+        padding-top: 1em;
+    }
+
+    h2 {
+        font-size: 1em;
+        font-weight: 400;
+        padding: 0 0 .5em 0; 
+        text-align: center;    
+}
+
+    h3 {
+        font-size: 2.2em; 
+        padding: 0 0 .5em 0;
+    }
+
+    a {
+        font-size: 1.2em;
+        padding-bottom: .5em;
+        text-decoration: none;
+    }
+    
+
+    p {
+       font-size: 1.2em; 
+    }
+
+    address {
+        font-size: 1.2em;
+        line-height: 1.5em; 
+        padding-bottom: .75em;
+        font-style: normal;
+}
+
+    #gallery img {
+        padding-bottom: .25em
+    }
+
+    .onethird {
+        width: 100%;
+        float: none;
+    }
+
+    .twothird {
+        width: 100%;
+        float: none;
+    }
+
+
+    #serviceshead {
+        margin: 0; 
+        padding: 0;
+    } 
+
+    .design {
+        width: 100%;
+        float: none; 
+        padding: 0;
+    }
+    .strategy {
+        width: 100%; 
+        float: none; 
+        padding: 0 0 1em 0;
+    }
+
+    #about img {
+        width: 100%;
+        float: none;
+        padding: .5em 0 0 0; 
+    }
+
+    #about p {
+        padding-right: 0; 
+    }
+
+    footer { 
+        background-color: #DFF1E9;
+        padding: 2em 2em; 
+    }
+
+    #contact {
+    }
+
+    #connect { 
+        width: 100%;
+        float: none;
+        padding: 0 0 0 0;
+    }
+
+    #connect>h5 { 
+            padding: 0 0 0 0; 
+    }
+
+
+    #connect ul li {
+        display: inline;
+    }
+
+    .contact-info {
+    display: block;
+    text-decoration: none;
+    line-height: 1.5em;
+    }
+
+    .social img {
+        width: auto;
+        padding: .5em .75em .5em 0;
+    }
+
+    #connect ul li {
+        display: inline;
+
+    }
+
+    form {
+        float: none;
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    button {
+        width: 100%;
+        font-size: 1em;
+
+    }
+
+    textarea {
+        width: 100%;
+        font-size: 1em;
+
+}
+
+
 }
