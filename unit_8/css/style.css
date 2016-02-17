@@ -321,41 +321,64 @@ textarea {
 
 
 @media screen and (max-width: 768px) { 
-    body {
+     body {
         font-size: 1em;
     }
 
     header {
         position: fixed;
-        width: 100%;
-        background-color: #DFF1E9;
+        text-align: center; 
+        height: 5em;
     }
 
     nav {
-        float: right;
-        padding: 1em 0;
+        float: none;
+        margin: 0 0 0 0; 
+        background-color: #ED2983; 
+
     }
 
     nav a {
-        padding: .5em 1em;
-        text-transform: uppercase;
-        font-size: .8em;
-        font-weight: 400;
-        letter-spacing: .05em;
-        color: #ED2983;
-        text-decoration: none;
+        color: #fff;
+        font-size: 1em;
+        padding: 1.2em 0 ;
+        display: block;
+        text-align: center;
+        border-bottom: .1em solid #fff; 
     }
 
-    .wrapper {
-        width: 86em;
-        margin: auto;
+    h1 {
+        text-align: center; 
+        float: none;
+        padding-top: 1em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        padding: 0 0 .5em 0;     
     }
 
     h3 {
         font-size: 3em; 
-        padding: 0;
+        padding: 0 0 .5em 0;
     }
 
+    a {
+        font-size: 1.2em;
+        padding-bottom: .5em;
+        text-decoration: none;
+    }
+
+    p {
+       font-size: 1.2em; 
+    }
+
+    address {
+        font-size: 1.2em;
+        line-height: 1.5em; 
+        padding-bottom: .75em;
+        font-style: normal;
+    }
     #services {
         padding: 2em 0 0 2em 
     }
@@ -379,7 +402,7 @@ textarea {
 
 @media screen and (max-width: 425px) {
 
-body {
+    body {
         font-size: 1em;
     }
 
