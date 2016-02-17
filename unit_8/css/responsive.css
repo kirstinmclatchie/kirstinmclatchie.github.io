@@ -8,14 +8,11 @@
         position: fixed;
         width: 100%;
         background-color: #DFF1E9;
-
     }
 
     nav {
         float: right;
         padding: 1em 0;
-
-
     }
 
     nav a {
