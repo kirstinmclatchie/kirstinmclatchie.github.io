@@ -8,11 +8,11 @@ body {
 }
 
 header {
-    position: fixed;
+    position: relative;
     width: 100%;
     height: 3em;
     background-color: #DFF1E9;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
 
 }
 
@@ -108,9 +108,7 @@ a:hover {
     cursor: pointer;
 }
 
-#blank {
-    height: 5em;
-}
+
 
 /* HEADLINE */
 
@@ -147,7 +145,7 @@ a:hover {
 /* SERVICES */
 #services {
     background-color: #DFF1E9;
-    padding: 2em 2em; 
+    padding: 2em 1em; 
 }
 
 #serviceshead {
@@ -160,7 +158,6 @@ a:hover {
 }
 
 #service-list {
-    height: ;
 }
 .design {
     width: 50%;
@@ -206,7 +203,6 @@ a:hover {
     padding: 1em 3em 3em 2em; 
 }
  
-
 #about p {
     padding-right: 5em; 
 }
@@ -319,6 +315,45 @@ textarea {
     height: 0;
 }
 
+@media screen and (max-width: 1024px) {
+
+   h3 {
+       font-size: 7em;
+       padding-bottom: 2.5em;
+   }
+
+   .design {
+    width: 50%;
+    float: left; 
+    padding: 0em 1em 0 10em;
+}
+
+.design ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5em; 
+    line-height: 1.5em; 
+    color: #ED2983;
+    text-align: center
+}
+
+.strategy {
+    width: 50%;
+    float: left; 
+    padding: 0em 1em 0 1em;
+}
+
+.strategy ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5em; 
+    line-height: 1.5em; 
+    color: #ED2983;
+    text-align: center
+}
+}
 
 @media screen and (max-width: 768px) { 
      body {
@@ -326,25 +361,25 @@ textarea {
     }
 
     header {
-        position: fixed;
+        position: relative; 
         text-align: center; 
         height: 5em;
     }
 
     nav {
-        float: none;
+        width: 100%;
+        float: left;
         margin: 0 0 0 0; 
-        background-color: #ED2983; 
-
+        background-color: #DFF1E9;
     }
 
     nav a {
         color: #fff;
         font-size: 1em;
-        padding: 1.2em 0 ;
-        display: block;
+        padding: 1em 1.5em;
+        display: inline-block;
         text-align: center;
-        border-bottom: .1em solid #fff; 
+        color: #ED2983; 
     }
 
     h1 {
@@ -407,25 +442,25 @@ textarea {
     }
 
     header {
-        position: fixed;
+        position: relative; 
         text-align: center; 
         height: 5em;
     }
 
     nav {
-        float: none;
+        width: 100%;
+        float: left;
         margin: 0 0 0 0; 
-        background-color: #ED2983; 
-
+        background-color: #DFF1E9;
     }
 
     nav a {
         color: #fff;
         font-size: 1em;
-        padding: 1.2em 0 ;
-        display: block;
+        padding: 1em 1.5em;
+        display: inline-block;
         text-align: center;
-        border-bottom: .1em solid #fff; 
+        color: #ED2983; 
     }
 
     h1 {
@@ -564,25 +599,27 @@ textarea {
     }
 
     header {
-        position: fixed;
+        position: relative; 
         text-align: center; 
         height: 5em;
     }
 
     nav {
-        float: none;
+        width: 100%;
+        float: left;
         margin: 0 0 0 0; 
-        background-color: #ED2983; 
+        background-color: #DFF1E9;
     }
 
     nav a {
         color: #fff;
         font-size: 1em;
-        padding: 1em 0 ;
-        display: block;
+        padding: 1em 1.5em;
+        display: inline-block;
         text-align: center;
-        border-bottom: .1em solid #fff; 
+        color: #ED2983; 
     }
+
     
     h1 {
         font-size: 1em;
@@ -731,27 +768,27 @@ textarea {
     }
 
     header {
-        position: fixed;
+        position: relative; 
         text-align: center; 
         height: 5em;
     }
 
     nav {
-        float: none;
+        width: 100%;
+        float: left;
         margin: 0 0 0 0; 
-        background-color: #ED2983; 
+        background-color: #DFF1E9;
     }
 
     nav a {
         color: #fff;
         font-size: 1em;
-        padding: 1em 0 ;
-        display: block;
+        padding: 1em 1.5em;
+        display: inline-block;
         text-align: center;
-        border-bottom: .1em solid #fff; 
+        color: #ED2983; 
     }
 
-    
     h1 {
         font-size: 1em;
         text-align: center; 
