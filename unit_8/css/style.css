@@ -134,11 +134,13 @@ a:hover {
     background:#ED2983;
     opacity:0;
     position:absolute;
-    top:0;
-    height:100%;
-    width:100%;
+    transition-duration:.5s;
+    top:.25em;
+    right:.25em;
+    bottom:.25em;
+    left:.25em;
 }
-.overlaytext {
+.textoverlay {
     color:#fff;
     position:absolute;
     top:50%;
