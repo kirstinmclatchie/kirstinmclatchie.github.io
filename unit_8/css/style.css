@@ -23,7 +23,7 @@ nav {
 }
 
 nav a {
-    padding: .5em 1em;
+    padding: 1em 1em;
     text-transform: uppercase;
     font-size: .8em;
     font-weight: 400;
@@ -32,11 +32,11 @@ nav a {
     text-decoration: none;
 }
 
-.wrapper {
-    width: 86em;
-    margin: auto;
+nav a:hover {
+    background-color: #ED2983;
+    color: #fff;
+    transition-duration: .1s;
 }
-
 img {
     max-width: 100%;
     width: 100%;
@@ -53,19 +53,16 @@ h1 {
 }
 
 h2 {
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: .08em;
-    font-size: 1em;
-    padding: .5em 0 ;
-    color: #ED2983;
+    font-family: 'Lobster Two', cursive;
+    font-size: 3em; 
+    color: #8BCFBA;
 }
 
 h3 {
-    font-family: 'Lobster Two', cursive;
-    font-size: 8em; 
-    padding: 0 0 2em 0;
-    color: #8BCFBA;
+    font-weight: 600;
+    letter-spacing: .06em;
+    font-size: 1.25em;
+    padding: .5em 0;
 }
 
 h4 { 
@@ -78,13 +75,6 @@ h5 {
     font-family: 'Lobster', cursive;
     font-size: 1.5em;
     padding: 0 0 1em 0;
-}
-
-h6 {
-    letter-spacing: .08em;
-    font-size: 1em;
-    padding: .75em 0 .5em 0 ; 
-    
 }
 
 p {
@@ -108,9 +98,11 @@ a:hover {
     cursor: pointer;
 }
 
+ul {
+    list-style: none;
+}
 
-
-/* HEADLINE */
+/* HEADLINE 
 
 #headline {
     font-family: 'Lobster Two', cursive;
@@ -120,16 +112,14 @@ a:hover {
     margin: .5em .5em;
 }
 
+*/
+
 /* GALLERY */
 #gallery a {
     display:block;
     position:relative;
 }
 
-#gallery h2 {
-    padding: 0 0 1em 1em;
-
-}
 .overlay {
     background:#ED2983;
     opacity:0;
@@ -137,16 +127,35 @@ a:hover {
     transition-duration:.5s;
     top:.25em;
     right:.25em;
-    bottom:.25em;
+    bottom:.475em;
     left:.25em;
 }
 .textoverlay {
+    width: 17em;
     color:#fff;
     position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
+    top:40%;
+    left:40%;
+    transform:translate(-50%,-10%);
+    line-height: 1em;
 }
+
+.textoverlay>h3 {
+    width: 17em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: 1.5em;
+    color: #fff;
+
+}
+
+.textoverlay p {
+    font-size: 1.25em;
+    font-weight: 300; 
+    letter-spacing: .05em;
+}
+
 .overlay:hover {
     opacity:1;
 }
@@ -162,61 +171,55 @@ a:hover {
     padding: .25em;
 }
 
+.twothird h3 {
+    font-size: 3em; 
+    width: 12em;
+    margin-left: -3em; 
+}
 
+.twothird p {
+    font-size: 2em; 
+    width: 13em;
+    margin-left: -4.5em; 
+}
 /* SERVICES */
 #services {
     background-color: #DFF1E9;
-    padding: 2em 1em; 
+    padding: 2em 0;
 }
 
-#serviceshead {
+#services>h2 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 8em; 
     text-align: center;
-    margin-bottom: -15em; 
+    color: #8BCFBA;
 }
-
 .amp {
     color: #ED2983;
 }
 
-#service-list {
+.servicelist {
+    width: 1200px; 
+    margin: auto;
 }
-.design {
+
+.servicelist li {
     width: 50%;
     float: left; 
-    padding: 0em 1em 0 10em;
-}
-
-.design ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 1.5em; 
+    text-align: center;
     line-height: 1.5em; 
-    color: #ED2983;
-    text-align: center
-}
-
-.strategy {
-    width: 50%;
-    float: left; 
-    padding: 0em 10em 0 1em;
-}
-
-.strategy ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 1.5em; 
-    line-height: 1.5em; 
-    color: #ED2983;
-    text-align: center
+    color: #ED2983; 
+    font-size: 1.25em;
+    text-decoration: none;
 }
 
 /* ABOUT */ 
 
 
 #about { 
-    padding: 2em 2em; 
+    padding: 2em 0; 
+    width: 1200px; 
+    margin: auto; 
 }
 #about img {
     width: 40%;
@@ -225,7 +228,8 @@ a:hover {
 }
  
 #about p {
-    padding-right: 5em; 
+    width: 60%;
+    float: left; 
 }
 
 /* FOOTER */ 
@@ -235,7 +239,9 @@ footer {
     padding: 2em 2em; 
 }
 
-#contact {
+#insidewrapper {
+    width: 1200px;
+    margin: auto;
 }
 
 #connect { 
@@ -278,6 +284,13 @@ form {
     width: 50%;
 }
 
+label {
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: 1em;
+    line-height: 2em;    
+}
+
 input {
     width: 100%;
     padding: 1em;
@@ -289,9 +302,10 @@ input {
     font-size: .8em;
 }
 
-input:focus {
-    border: none;
-}
+*:focus {
+    border: .2em solid #8bcfba;
+    outline: none;
+    }
 
 button {
     width: 20%;
@@ -892,7 +906,9 @@ textarea {
         padding: 2em 2em; 
     }
 
-    #contact {
+    #insidewrapper {
+        width: 1200px;
+        margin: auto;
     }
 
     #connect { 
@@ -949,3 +965,4 @@ textarea {
     }
 
 }
+
