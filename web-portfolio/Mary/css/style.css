@@ -250,7 +250,7 @@ footer a {
     height: 0;
 }
 
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ration:3) {
+@media screen and (max-width: 360px) {
 
 	header {
 
