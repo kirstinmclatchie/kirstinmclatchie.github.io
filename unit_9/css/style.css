@@ -335,29 +335,48 @@ button {
 	.overlay-text>h3 {
 		font-size: 1em; 
 	}
+	
+	.overlay-text {
+		position: absolute;
+		color: #fff;
+		top:40%;
+		left:40%;
+		transform:translate(-50%,-30%);	
+	}
+	
+	#services h2 {
+		font-size: 3em; 
+		text-align: center;
+		padding-bottom: .5em;
+	}
 
 
 	#about {
-		padding: 2em 1em;
+		padding: 2em em;
 	}
-	#about-text {
-		width: 50%; 
+	.about-text {
+		width: 100%; 
 		float: none; 
 	}
 
 	.circle {
-		width: 50%;
-		height: auto;
+		width: 45%;
+		float:right;
+		margin: 2em 1em 0 2em; 
+
 		border-radius: 0%;
-		overflow: hidden;
-		float: left; 
-		margin: 0; 
-		padding-right: 2em;
 	}
 
 	#about img {
 		width: 100%;
-		margin: 0;
+		margin: -10;
+	}
+
+	#contact {
+		padding-right: 1em;
+	}
+	.social {
+		padding-top: 1em;
 	}
 }
 
@@ -435,11 +454,6 @@ button {
 
 	.overlay:hover {
 		opacity: 0;
-	}
-	#services h2 {
-		font-size: 3em; 
-		text-align: center;
-		padding-bottom: .5em;
 	}
 
 	#services ul li {
