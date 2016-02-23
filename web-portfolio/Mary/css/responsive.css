@@ -1,0 +1,239 @@
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ration:3) {
+
+header {
+    background-color: #f18885;
+    padding: 0 0;
+}
+
+nav {
+    padding:1em;
+    background-color: #590100;
+    font-size: 5em;
+}
+
+nav a {
+    text-transform: uppercase;
+    margin:.5em .2em;
+    padding: .5em;
+    letter-spacing: .1em;
+    display: inline;
+    text-align: center;
+    text-decoration: none
+}
+
+a {
+    cursor: pointer;
+}
+
+
+h1 {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+    font-size: 10em; 
+    text-align: center;
+    padding: 1em 0
+}
+
+h2{
+    font-family: 'Josefin Slab', serif;
+    color: #F1F0f5;
+    font-size: 10em;
+    padding: 1em;
+    letter-spacing: .15em;
+}
+
+
+h3{
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.25em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    padding: 1em 0; 
+}
+
+h4 { 
+    font-family: 'Josefin Slab', serif;
+    font-size: 1em; 
+}
+
+p{
+    line-height: 1.75em;
+
+}
+
+a {
+    font-size: 1em;
+    color: #f0f1f3;
+    padding: .5em;
+
+}
+
+a:hover {
+    text-decoration: none;
+
+}
+.wrapper{
+
+    width: 100%;
+    margin: auto;
+}
+
+/* POEM ONE */
+
+#one {
+    background: url("../images/fern.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.title-one {
+    float: none;
+    color: rgba(240,241,243,.8);
+    text-shadow: 1px 1px 3px rgba(38,33,37,.2);
+    font-size: 1em;
+    padding: 6em 1.5em;
+}
+
+.poem-one {
+    width: 33.33%;
+    float: none;
+    background-color: rgba(240,241,243,.6);
+    padding: 3.5em;
+    box-shadow: 1px 1px 2px rgba(38,33,37,.1);
+
+}
+
+/* POEM TWO */
+#two{
+    background-color: #F0F1F3;
+    padding: 4em 0 4em 0; 
+
+}
+
+#title-two {
+    padding: 0 0 0 4em;
+
+}
+
+.poem-two {
+    width: 50%;
+    float: left;
+    padding: 2em 0 0 0;
+
+}
+
+.circle{
+    width:30em;
+    height:30em;
+    border-radius: 50%;
+    overflow: hidden;
+    margin:auto;
+}
+
+#ptwo-pic {
+    float: left;
+}
+
+
+/* POEM THREE */ 
+#three {
+    background: url("../images/highlands.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding: 4em 2em;
+}
+
+.title-three {
+    text-align: center;
+    font-size: 2.5em;
+    color: rgba(240,241,243,.6);
+    padding: 0 0 1em 0;
+    text-shadow: 1px 1px rgba(38,33,37,.2);
+}
+
+.verse {
+    width: 23.25%;
+    height: 12em; 
+    float: left;
+    background-color: rgba(240,241,243,.65);
+    box-shadow: 1px 1px 2px rgba(38,33,37,.1);
+    padding: 1.5em 1em 1em 2em;
+    margin: .5em;
+
+}
+
+/* POEM FOUR */ 
+
+#four {
+    background: url("../images/coo.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.poem-four {
+    width: 40%;
+    float: left;
+    background-color: rgba(240,241,243,.65);
+    box-shadow: 1px 1px 2px rgba(38,33,37,.1);
+    padding: 4em;
+
+}
+
+#title-four{
+    padding: 2em 0;
+
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #590100;
+    height: 22em; 
+    font-size: .9em; 
+    line-height: 1.1em;
+    color: #F0F1F3;
+    padding: 3.5em 0 1em 0 ;
+
+}
+
+footer a {
+    color: #f18885;
+    text-decoration: none;
+    padding: 0;
+}
+
+#mary {
+    width: 32.33%; 
+    float: left;
+}
+.smcircle{
+    width:15em;
+    height:15em;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+
+#mary img {
+    width: 100%;
+    margin-top: -7em ;
+}
+
+#bio {
+    width: 31.33%; 
+    float: left;
+    padding: 0 2em 0 0;
+}
+
+#credit {
+    width: 31.33%; 
+    float: left;
+    padding: 0 0 0 2em; 
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+}
