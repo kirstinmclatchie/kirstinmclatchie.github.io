@@ -27,11 +27,11 @@ nav {
 nav a {
     color: #ED2983; 
     text-decoration: none; 
-    padding: 1.6em .5em 0 .5em;
+    padding: 1.45em .5em 0 .5em;
 }
 
 nav a:hover {
-    border-top: 2px solid #ED2983;
+    border-top: 3px solid #ED2983;
 }
 
 a {
@@ -105,7 +105,7 @@ img {
    }
 
 .overlay-text>p {
-    font-size: 1.3em;
+    font-size: 1.25em;
     padding: 0 0 0 0;
     line-height: 1.3em;
     letter-spacing: .03em;
@@ -124,7 +124,7 @@ img {
 }
 
 .overlay {
-    background:#ED2983;
+	background:rgba(163,28,90,.7);
     opacity: 0;
     position: absolute;
     transition-duration:.5s;
@@ -139,7 +139,8 @@ img {
     color: #fff;
     top:40%;
     left:40%;
-    transform:translate(-50%,-0%);	
+    transform:translate(-35%,-40%);	
+    width: 90%; 
 }
 
 .overlay:hover {
@@ -299,57 +300,33 @@ button {
 
 @media screen and (max-width: 1024px) {
 
-	header {
-		font-size: .9em;	
+	h1 {
+		font-size: 1.75em;	
 	}
 
 	nav { 
-		font-size: .7em
+		font-size: .75em;
+		margin: -1.75em 0 1em 0;
 	}
 
+	nav a {
+		padding: 1.8em .5em 0 .5em;
+
+	}
+
+
 	.overlay-text>p {
+		font-size: 1em;
 
 	}
 
 	.overlay-text>h3 {
-		font-size: 1em; 
+		font-size: 1.5em; 
 	}
 
-}
-
-@media screen and (max-width: 768px) {
-
-	header {
-		font-size: .9em;	
-	}
-
-	nav { 
-		font-size: .7em
-	}
-
-	.overlay-text>p {
-		font-size: .8em
-
-	}
-
-	.overlay-text>h3 {
-		font-size: 1em; 
-	}
-	
-	.overlay-text {
-		position: absolute;
-		color: #fff;
-		top:40%;
-		left:40%;
-		transform:translate(-50%,-30%);	
-	}
-	
 	#services h2 {
-		font-size: 3em; 
-		text-align: center;
-		padding-bottom: .5em;
+		font-size: 5em;
 	}
-
 
 	#about {
 		padding: 2em em;
@@ -363,7 +340,6 @@ button {
 		width: 45%;
 		float:right;
 		margin: 2em 1em 0 2em; 
-
 		border-radius: 0%;
 	}
 
@@ -380,7 +356,47 @@ button {
 	}
 }
 
-@media screen and (max-width: 435px) {
+@media screen and (max-width: 768px) {
+
+	header {
+		font-size: .9em;	
+	}
+
+	nav { 
+		font-size: .7em
+	}
+
+	nav a {
+		padding-top: 2.1em;
+	}
+
+	.overlay-text>p {
+		font-size: .9em
+
+	}
+
+	.overlay-text>h3 {
+		font-size: 1.25em; 
+	}
+	
+	.overlay-text {
+		position: absolute;
+		color: #fff;
+		top:40%;
+		left:40%;
+		transform:translate(-35%,-20%);	
+		text-align: center;
+		width: 90%; 
+	}
+	
+	#services h2 {
+		font-size: 3em; 
+		padding-bottom: .5em;
+	}
+
+}
+
+@media screen and (max-width: 450px) {
 
 	header {
 		float: none;
@@ -394,7 +410,6 @@ button {
 	}
 
 	nav { 
-		font-size: .75em;
 		float: none;
 		width: 100%; 
 		margin: 0;
@@ -402,12 +417,14 @@ button {
 		text-align: center;
 	}
 
-	nav a {
-		padding: 0 .5em;
+	nav {
+		font-size: .9em;
+		padding-bottom: 0
 	}
 
-	nav a:hover {
-   		border-top: 0px solid #ED2983;
+	nav a {
+		padding: 1.5em; 
+		line-height: 3em;  
 	}
 
 	.one-third {
@@ -421,17 +438,12 @@ button {
 	}
 
 	.overlay-text>h3 {
-	   font-size: 2.5em;
-	   font-weight: 600;
-	   padding: 0 0 .1em 0;
+	   font-size: 2.2em;
 	   letter-spacing: .02em;
 	   }
 
 	.overlay-text>p {
-		font-size: 1.3em;
-		padding: 0 0 0 0;
-		line-height: 1.3em;
-		letter-spacing: .03em;
+		font-size: 1em;
 	}
 
 	.overlay {
@@ -449,7 +461,9 @@ button {
 		color: #fff;
 		top:40%;
 		left:40%;
-		transform:translate(-50%,-30%);	
+		transform:translate(-40%,-30%);	
+		text-align: center;
+		width: 90%; 
 	}
 
 	.overlay:hover {
@@ -463,7 +477,7 @@ button {
 	}
 
 	#about {
-		padding: 1em;
+		padding: 1em ;
 	}
 
 	.about-text {
@@ -474,10 +488,13 @@ button {
 	.circle {
 		width: 100%;
 		float: none; 
+		margin: 0;
 	}
 
 	#about img {
 		width: 100%;
+		padding: 1em 0;
+		margin: 0; 
 	}
 
 	footer {
@@ -505,19 +522,10 @@ button {
 
 @media screen and (max-width: 375px) {
 
-	nav {
-		font-size: .75em;
-		padding-bottom: 0
-	}
 
-	nav a {
-		padding: 1.5em; 
-		line-height: 3em;  
-	}
-
-		.overlay-text>h3 {
+	.overlay-text>h3 {
 	   font-size: 1.5em;
-	   }
+	}
 
 	.overlay-text>p {
 		font-size: 1em;
@@ -533,16 +541,20 @@ button {
 }
 
 @media screen and (max-width: 320px) {
+	
+	nav {
+		font-size: .8em;
+	}
+
 	h1 {
 		font-size: 1.5em;
 	}
 
 	h2 {
-		font-size: 2.5em; 
+		font-size: 2em; 
 	}
 
 	h3 {
 		font-size: 1em; 
 	}
-
 }
