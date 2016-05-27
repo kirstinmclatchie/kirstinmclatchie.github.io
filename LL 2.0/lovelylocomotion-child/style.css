@@ -1,0 +1,295 @@
+/*
+ Theme Name:   Lovely Locomotion Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Lovely Locomotion Child Theme - Lovely Locomotion
+ Author:       Kirstin
+ Author URI:   http://lovelylocomotion.com
+ Template:     lovelylocomotion
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, left-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  lovelylocomotion-child
+*/
+@import url("../lovelylocomotion/style.css");
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,400,600);
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	background-color: #EBF1FF; 
+	font-family: 'Work Sans', sans-serif;    
+	font-size: 18px;
+	font-weight: 400; 
+    color: #232B2E;
+}
+
+#content {
+	width: 80%;
+	margin-left: 20%;
+}
+
+a {
+    color: #EA1363; 
+    text-decoration: none; 
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 1.1em;
+}
+
+h2 {
+	font-weight: 300;
+	letter-spacing: .08em; 
+    text-transform: uppercase;
+    color: #03BFC2;
+    padding-bottom: 1em;
+}
+
+h3 {
+	font-size: 1.2em; 
+	font-weight: 300; 
+	padding-bottom: .5em; 
+}
+
+h3 {
+	font-weight: 600;
+	padding-bottom: .5em; 
+}
+
+h4 {
+	font-size: 1.2em;
+	font-weight: 600; 
+	
+}
+
+p {
+    line-height: 1.5em; 
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+img {
+   max-width: 100%;
+   width: 100%;
+   height: auto;
+}
+
+a:visited,
+a:hover,
+a:focus,
+a:active {
+	color: #EA1363;
+}
+
+a:visited,
+a:focus {
+	color: #EA1363;
+}
+
+a:focus {
+	outline: none;
+}
+
+
+li {
+	text-decoration: none;
+}
+/* Header */
+.site-header {
+	background-color: #0B1C40;
+	width: 20%; 
+	height: 100%;
+	float: left;
+	position: fixed;
+	padding: 1em;
+	clear: both; 
+}
+
+.site-branding {
+	margin: 0;
+	padding: 0;
+}
+
+.site-branding img{
+	margin: 0;
+	padding-bottom: 1em;
+}
+
+.site-title {
+	display: none;
+}
+
+.site-description {
+	display: none;
+}
+
+/* NAVIGATION */ 
+
+#site-navigation {
+	letter-spacing: .1em;
+	padding: 1em 0; 
+	border-top: 4px solid #EBF1FF; 
+	border-bottom: 4px solid #EBF1FF; 
+}
+
+.main-navigation {
+	display: block;
+}
+
+.main-navigation  ul {
+	padding: 1em 0; 
+}
+
+.main-navigation li {
+	padding: .5em 0; 
+	clear: both;
+}
+
+.main-navigation  a {
+    color: #EBF1FF;
+    text-decoration: none; 
+    text-transform: uppercase;
+}
+
+.main-navigation  a:hover {
+	color: #EA1363;
+}
+
+/* MAIN CONTENT */ 
+.site-content {
+	width: 80%;
+	margin: auto;
+}
+
+/* FOOTER */ 
+
+#desktop-only {
+	line-height: 1.5em; 
+	font-size: .8em; 
+	padding-top: 1em; 
+}
+
+#desktop-only h3 {
+	font-size: 1em; 
+	text-transform: uppercase; 
+	letter-spacing: .08em;
+	color: #03BFC2;
+	padding-top: 1em; 
+}
+
+address {
+	line-height: 1.25em; 
+	padding-top: .75em;
+    color: #EBF1FF;
+    font-style: normal; 
+    font-weight: 400; 
+}
+
+.social img {
+	width: 80%; 
+	padding-bottom: .5em; 
+}
+
+.social h3 {
+	padding-top: 2em; 
+	padding-bottom: 1em; 
+}
+
+
+.social li { 
+	display: inline-block;
+	padding-right: .8em; 
+}
+
+.copy {
+   	font-weight: 300;
+   	font-size: .9em; 
+   	margin-left: 40%; 
+}
+
+#mobile-only {
+	display: none; 
+}
+
+#desktop-only {
+	display: block; 
+}
+
+/* HOMEPAGE */ 
+#cta {
+	font-size: 1.75em; 
+	font-weight: 300; 
+	margin-top: 2em;
+}
+
+#featured-work {
+}
+
+.homepage-featured-work>h3 {
+	font-size: .9em;
+	text-align: center;  
+}
+
+.homepage-featured-work {
+	width: 32%; 
+	float: left; 
+    margin-right: 1em; 
+}
+
+.homepage-featured-work:last-child {
+    margin-right: 0; 
+}
+
+.featured-one-third {
+    margin: 0; 
+    padding: 0; 
+}
+
+.featured-one-fourth {
+	width: 23.5%; 
+	float: left; 
+	margin-right: 1em; 
+}
+
+.featured-one-fourth:last-child {
+	margin-right: 0em; 
+}
+
+.featured-one-fourth>h3 {
+	font-size: .9em;
+	text-align: center; 
+}
+
+#featured-posts {
+
+}
+
+.homepage-blog-post {
+	padding-bottom: 1em;
+}
+
+img.wp-post-image {
+	width: 15%;
+	float: left;
+}
+
+.homepage-blog-excerpt {
+	width: 80%;
+	float: left; 
+}
+
+.read-more {
+	padding: 0 .5em; 
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
