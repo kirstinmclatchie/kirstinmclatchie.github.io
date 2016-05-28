@@ -30,7 +30,7 @@ get_header(); ?>
 			?>
 				<li class="homepage-featured-work">
 					<figure class="featured-one-third">
-						<?php echo wp_get_attachment_image($image_1, $size); ?>
+						<a href="<?php the_permalink(); ?>"><?php echo wp_get_attachment_image($image_1, $size); ?></a>
 					</figure>
 					<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 				</li>
@@ -48,7 +48,7 @@ get_header(); ?>
 					$size = "medium";
 				?>
 					<li  class="featured-one-fourth"> 
-						<?php echo wp_get_attachment_image($image_1, $size); ?>
+						<a href="<?php the_permalink(); ?>"><?php echo wp_get_attachment_image($image_1, $size); ?></a>
 						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 					</li>
 				<?php endwhile; // end of the loop. ?>
@@ -58,16 +58,14 @@ get_header(); ?>
 
 	<section id="featured-posts" class="clearfix">
 			<h2>Recent Posts</h2>
-			<div class="homepage-blog-post">
-				<div class="homepage-blog-thumbnail">
-					<?php query_posts('posts_per_page=3'); ?>
-					<?php while ( have_posts() ) : the_post(); ?>
-							<?php echo get_the_post_thumbnail( $post_id, 'thumbnail', array( 'class' => 'alignleft' ) ); ?>
- 				</div>
- 				<div class="homepage-blog-excerpt">
-	 				<h3><?php the_title(); ?></h3>
+			<?php query_posts('posts_per_page=3'); ?>
+			<?php while ( have_posts() ) : the_post(); ?>
+			<article class="homepage-blog-post">
+				<a href="<?php the_permalink(); ?>"><?php echo get_the_post_thumbnail( $post_id, 'thumbnail', array( 'class' => 'alignleft' ) ); ?></a>
+ 				<aside class="homepage-blog-excerpt">
+	 				<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 					<?php the_excerpt(); ?>
-				</div>
+				</aside>
 				<?php endwhile; // end of the loop. ?>
 				<?php wp_reset_query(); // resets the altered query back to the original ?>
 			</div>

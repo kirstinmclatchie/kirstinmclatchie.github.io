@@ -37,28 +37,20 @@ h1 {
 }
 
 h2 {
-	font-weight: 300;
-	letter-spacing: .08em; 
-    text-transform: uppercase;
-    color: #03BFC2;
+	font-size: 1.75em; 
     padding-bottom: 1em;
+    color: #03BFC2; 
 }
 
 h3 {
-	font-size: 1.2em; 
-	font-weight: 300; 
+	font-size: 1.5em; 
 	padding-bottom: .5em; 
-}
-
-h3 {
 	font-weight: 600;
-	padding-bottom: .5em; 
 }
 
 h4 {
-	font-size: 1.2em;
+	font-size: 1.2em; 
 	font-weight: 600; 
-	
 }
 
 p {
@@ -96,6 +88,7 @@ a:focus {
 li {
 	text-decoration: none;
 }
+
 /* Header */
 .site-header {
 	background-color: #0B1C40;
@@ -108,12 +101,11 @@ li {
 }
 
 .site-branding {
-	margin: 0;
+	margin: .5em 0;
 	padding: 0;
 }
 
 .site-branding img{
-	margin: 0;
 	padding-bottom: 1em;
 }
 
@@ -126,6 +118,10 @@ li {
 }
 
 /* NAVIGATION */ 
+
+#primary-menu {
+	padding-top: 0;
+}
 
 #site-navigation {
 	letter-spacing: .1em;
@@ -168,7 +164,6 @@ li {
 #desktop-only {
 	line-height: 1.5em; 
 	font-size: .8em; 
-	padding-top: 1em; 
 }
 
 #desktop-only h3 {
@@ -176,7 +171,10 @@ li {
 	text-transform: uppercase; 
 	letter-spacing: .08em;
 	color: #03BFC2;
-	padding-top: 1em; 
+}
+
+.contact h3{
+	padding-top: 2em; 
 }
 
 address {
@@ -193,8 +191,7 @@ address {
 }
 
 .social h3 {
-	padding-top: 2em; 
-	padding-bottom: 1em; 
+	padding: 1em 0; 
 }
 
 
@@ -224,11 +221,17 @@ address {
 	margin-top: 2em;
 }
 
-#featured-work {
+#homepage h2 {
+    text-transform: uppercase;
+    color: #03BFC2;
+    font-weight: 300; 
+}
+
+#homepage h3 {
+	font-size: 1.2em;
 }
 
 .homepage-featured-work>h3 {
-	font-size: .9em;
 	text-align: center;  
 }
 
@@ -247,6 +250,14 @@ address {
     padding: 0; 
 }
 
+#featured-services {
+	padding-top: 2em; 
+}
+
+.featured-one-fourth h3 {
+	text-align: center; 
+}
+
 .featured-one-fourth {
 	width: 23.5%; 
 	float: left; 
@@ -257,31 +268,170 @@ address {
 	margin-right: 0em; 
 }
 
-.featured-one-fourth>h3 {
-	font-size: .9em;
-	text-align: center; 
-}
-
 #featured-posts {
 
 }
 
-.homepage-blog-post {
-	padding-bottom: 1em;
+.homepage-blog-post { 
+	clear: both; 
+
 }
 
 img.wp-post-image {
-	width: 15%;
-	float: left;
+	width: 15%; 
+	float: left; 
+	padding-bottom: 1.5em; 
 }
 
 .homepage-blog-excerpt {
-	width: 80%;
+	width: 80%; 
 	float: left; 
 }
 
 .read-more {
 	padding: 0 .5em; 
+}
+
+/* CASE STUDIES */
+
+#case-studies h2 {
+	margin-top: 1em; 
+}
+
+#gallery {
+	margin-right: 0; 
+}
+
+.individual-case-study h3 {
+	font-size: 1.2em; 
+	text-align: center;  
+}
+
+.individual-case-study{
+	width: 32%; 
+	float: left; 
+    margin-right: 1em; 
+}
+
+.individual-case-study:last-child{
+    margin-right: 0; 
+}
+
+.case-study {
+	margin-top: 2em;
+}
+
+.case-study h2 {
+	padding-bottom: 0; 
+}
+
+.case-study h3 {
+	font-size: .8em; 
+	font-weight: 400; 
+	text-transform: capitalize; 
+}
+
+.case-study h4 {
+	font-size: 1em; 
+	padding: 1em 0;
+	font-weight: 600; 
+
+}
+.case-study-sidebar {
+	width: 36%; 
+	float: left;
+}
+
+.case-study-images {
+	width: 63%; 
+	float: left; 
+	padding-left: 1.5em; 
+}
+
+.case-study-images img {
+	padding-bottom: 1em; 
+}
+
+#packages {
+	margin-top: 2em; 
+}
+
+.package-icon {
+	width: 30%; 
+	float: right;
+}
+
+.package-sidebar {
+	width: 68%; 
+	float: left;
+}
+
+.package-sidebar ul {
+	list-style: disc; 
+	padding-left: 2em; 
+}
+
+.package-sidebar p {
+	float: left; 
+}
+
+.individual-package {
+	padding-top: 2em; 
+}
+
+.individual-package-sidebar h3 {
+	font-size: 1.25em;
+	padding-top: 1em;
+}
+
+.individual-package-sidebar h4 {
+	font-size: 1em; 
+	padding-bottom: 1em;  
+	color: #03BFC2; 
+}
+	
+.individual-package-sidebar ul {
+	list-style: disc; 
+	padding-left: 2em; 
+	padding-bottom: 1em; 
+}
+
+.individual-package-sidebar {
+	width: 67%;
+	float: left; 	
+}
+
+.individual-package-icon {
+	width: 30%; 
+	float: right;
+	padding-right: 1em; 
+}
+
+.rate {
+	color: #03bfc2; 
+}
+
+#services {
+
+}
+
+.individual-service {
+	padding-top: 2em; 
+}
+
+.individual-service-icon {
+	width: 30%; 
+	float: right;
+}
+
+.individual-service-sidebar {
+	width: 68%; 
+	float: left;
+}
+
+.individual-service-sidebar h3 {
+	font-size: 1.25em;
+	padding-top: 1em;
 }
 
 .clearfix:after {
