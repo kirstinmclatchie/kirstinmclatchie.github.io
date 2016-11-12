@@ -40,6 +40,7 @@ nav a {
     color: #EBF1FF;
     text-decoration: none; 
     text-transform: uppercase;
+    border: 0; 
 }
 
 nav a:hover {
@@ -184,6 +185,7 @@ address {
 #featured-work a {
     display: block;
     position: relative;
+    border: 0; 
 }
 
 .featured-one-third{
