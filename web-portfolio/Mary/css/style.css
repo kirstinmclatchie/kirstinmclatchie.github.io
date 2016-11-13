@@ -307,6 +307,89 @@ footer a {
 
 }
 
+@media screen and (max-width: 980px) {
+	h1 {
+		padding: 1em 0;
+	}
+
+	.title-one {
+		width: 50%;
+		font-size: 1.25em;
+		line-height: 2.25em;
+		padding: 10em 1em 0 2em;
+	}
+
+	.poem-one {
+		width: 50%;
+		padding: 2em;
+	}
+	#title-two {
+		padding: 0 0 0 8em;
+
+	}
+
+	.poem-two {
+		width: 100%;
+		float: none;
+		padding: 2em 0 0 0;
+	}
+
+	.circle{
+		width:0;
+		height:0;
+	}
+
+	#ptwo-pic {
+		float: right;
+	}
+
+	.title-three {
+		font-size: 1.75em;
+	}
+
+	.verse {
+		width: 44.5%;
+		padding: 1.5em;
+		margin: 1em;
+	}
+
+	.poem-four {
+		width: 65%;
+		float: left;
+		background-color: rgba(240,241,243,.65);
+		box-shadow: 1px 1px 2px rgba(38,33,37,.1);
+		padding: 2em 1em 3em 3.5em;
+	}
+
+	footer {
+		background-color: #590100;
+		height: auto; 
+		font-size: 1em; 
+		line-height: 1.2em;
+		color: #F0F1F3;
+		padding: 3.5em 3em;
+	}
+
+	#mary {
+		width: 100%; 
+		float: none;
+		padding: 0 0 1em 0;
+	}
+
+	#bio {
+		width: 100%; 
+		float: left;
+		padding: .5em 4em;
+	}
+
+	#credit {
+		width:100%; 
+		float: left;
+		padding: .5em 4em; 
+	}
+
+}
+
 @media screen and (max-width: 768px) {
 	h1 {
 		padding: 1em 0;
@@ -390,7 +473,7 @@ footer a {
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
 
 header {
   height: 10em;
