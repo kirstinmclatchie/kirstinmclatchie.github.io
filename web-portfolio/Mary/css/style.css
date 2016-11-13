@@ -114,32 +114,28 @@ a:hover {
 
 /* POEM TWO */
 #two {
-	background: url("../images/loch.jpg") no-repeat center center fixed; 
-	background-size: cover;
-	
+  background-color: #F0F1F3;
 	padding: 4em 0 4em 0; 
 
 }
 
 #title-two {
 	padding: 0 0 0 4em;
-  color: #F0F1F3; 
-	text-align: center; 
+	text-align: left; 
 	font-size: 1.25em;
 	
 }
 
 .poem-two {
-	background-color: #F0F1F3;
-	width: 100%;
-	float: none;
-	padding: 1em;
+  width: 50%;
+  float: left;
+  padding: 2em 1em 0 0;
 }
 
 .circle{
-	width:0;
-	height:0;
-	border-radius: 100%;
+  width:30em;
+  height:30em;
+  border-radius: 50%;
 	overflow: hidden;
 	margin:auto;
 }
@@ -377,17 +373,23 @@ footer a {
 	}
 
 	#bio {
-		width: 100%; 
+		width: 50%; 
 		float: left;
 		padding: .5em 4em;
 	}
 
 	#credit {
-		width:100%; 
+		width:50%; 
 		float: left;
 		padding: .5em 4em; 
 	}
 
+}
+
+@media screen and (max-width: 800px) {
+  #title-two {
+		padding: 0 0 0 4em;
+		}
 }
 
 @media screen and (max-width: 768px) {
@@ -407,8 +409,7 @@ footer a {
 		padding: 2em;
 	}
 	#title-two {
-		padding: 0 0 0 8em;
-
+		padding: 0 0 0 4em;
 	}
 
 	.poem-two {
@@ -460,15 +461,15 @@ footer a {
 	}
 
 	#bio {
-		width: 100%; 
+		width: 50%; 
 		float: left;
-		padding: .5em 4em;
+		padding: .5em 1em 0 0;
 	}
 
 	#credit {
-		width:100%; 
+		width:50%; 
 		float: left;
-		padding: .5em 4em; 
+		padding: .5em 0 0 1em; 
 	}
 
 }
@@ -539,7 +540,7 @@ nav a {
 	/* POEM TWO */
 
 	#title-two {
-	    padding: 1em 0;
+	  padding: 1em 2em;
 		line-height: 4em;
 	}
 
@@ -547,11 +548,7 @@ nav a {
 		margin-bottom: 2em; 
 	}
 	.poem-two {
-	background-color: rgba(240,241,243,.6);
-	padding: 2em 1.5em 1.5em 1.5em;
-		margin: 0;
-	box-shadow: 1px 1px 2px rgba(38,33,37,.1);
-		color: #262125;
+		padding: 0;
 	}
 
 	.circle {
