@@ -6,7 +6,7 @@ body {
 	font-family: 'Work Sans', sans-serif;    
 	font-size: 18px;
 	font-weight: 400; 
-    color: #232B2E;
+  color: #232B2E;
 
 }
 
@@ -470,8 +470,8 @@ input {
     box-sizing: border-box;
     border: .2em solid #03BFC2;
     background-color: #fff;
-    color: #8bcfba;
-    font-size: .8em;
+    color: inherit;
+	  font-size: .9em;
 }
 
 *:focus {
@@ -488,11 +488,12 @@ textarea {
     height: 20%;
     padding: .75em;
     box-sizing: border-box;
-    border: .2em solid #03BFC2;
+    border: 0.15em solid #03BFC2;
     background-color: #fff;
     resize: none;
-    color: #8bcfba;
+    color: inherit;
     font-size: .9em;
+	  font-family: inherit; 
 } 
 
 button {
