@@ -59,6 +59,22 @@ a {
     text-decoration: none; 
 }
 
+a:visited {
+	border:0; 
+}
+
+a:hover {
+	border:0; 
+}
+
+a:active {
+	border:0; 
+}
+
+a:focus {
+	border: 0;
+}
+
 h1 {
 	font-size: 2em;
 	line-height: 1.1em;
@@ -833,12 +849,12 @@ button {
 	width: 100%;
 	margin: 0;
 	padding-bottom: 1em; 
-}
+	}
 
-.individual-service-description {
-	float: none;
-	width: 100%;
-}
+	.individual-service-description {
+		float: none;
+		width: 100%;
+	}
 
 
 }
