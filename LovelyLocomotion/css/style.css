@@ -94,11 +94,6 @@ h3 {
 	padding-bottom: .5em; 
 }
 
-h3 {
-	font-weight: 600;
-	padding-bottom: .5em; 
-}
-
 h4 {
 	font-size: 1.2em;
 	font-weight: 600; 
@@ -275,10 +270,6 @@ address {
 
 .overlay:hover {
     opacity: 1;
-}
-
-#individual-project {
-
 }
 
 .project-description {
@@ -539,7 +530,7 @@ button {
 	}
 	
 	#desktop-only {
-	 font-size: .75em; 
+	 	font-size: .75em; 
   }
 
 	address {
@@ -605,18 +596,18 @@ button {
 	}
 
 	.overlay-text>h3 {
-   font-size: 1.25em;
-   font-weight: 400;
-   text-align: center;
-   padding: 0;
+	   font-size: 1.25em;
+	   font-weight: 400;
+	   text-align: center;
+	   padding: 0;
    }
 	.overlay-text>p {
 		display: none;
   }
 	
 	.featured-service { 
-   	margin-right: .5em;
-    margin-bottom: 1em; 
+	   	margin-right: .5em;
+	    margin-bottom: 1em; 
 	}
 
 	.featured-service>h3 {
@@ -636,11 +627,11 @@ button {
 	}
 	
 	#blog-feed h3 {
-		font-size: 1em;
+		font-size: 1.25em;
 	}
 
 	#blog-feed p {
-		font-size: .8em; 
+		font-size: 1em; 
 	}
 	
 	.copy {
@@ -732,10 +723,10 @@ button {
 	}
 
 	.overlay-text>h3 {
-   font-size: 1.25em;
-   font-weight: 400;
-   text-align: center;
-   padding: 0;
+	   font-size: 1.25em;
+	   font-weight: 400;
+	   text-align: center;
+	   padding: 0;
    }
 	.overlay-text>p {
 		display: none;
@@ -757,7 +748,7 @@ button {
 
 	#logo img {
 		width: 50%;
-    vertical-align: center;
+   		vertical-align: center;
 		margin-left: 10em; 
 		padding-bottom: 0; 
 		text-align: center;
@@ -798,7 +789,7 @@ button {
 	#featured-services h3 {
 		font-weight: 600;
 		padding-top: 1em;
-		font-size: 1em;
+		font-size: 1.25em;
 	}
 
 	.featured-service {
@@ -868,10 +859,6 @@ button {
 		padding: 0 2em; 
 	}
 
-	.social-mobile img {
-		
-	}
-
 	.social-mobile h3 {
 		padding-top: 1em; 
 		padding-bottom: 1em; 
@@ -908,10 +895,10 @@ button {
 	}
 
 	.individual-service-thumb {
-	float: none;
-	width: 100%;
-	margin: 0;
-	padding-bottom: 1em; 
+		float: none;
+		width: 100%;
+		margin: 0;
+		padding-bottom: 1em; 
 	}
 
 	.individual-service-description {
@@ -920,15 +907,58 @@ button {
 	}
 }
 
+@media screen and (max-width: 360px) {
+
+	#logo img {
+		width: 60%;
+		margin: 0 5em; 
+	}
+	
+	#cta h1{
+		font-size: 1.5em;
+	}
+	
+	.featured-one-third {
+		float: none; 
+		width: 100%; 
+	}
+	.overlay-text {
+		font-size: 1.25em;
+	}	
+	
+	#featured-services h3 {
+		font-size: 1em;
+	}
+	
+	.post-thumbnail {
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+	
+}
+
 @media screen and (max-width: 320px) {
 	
-	h1 {
-		font-size: 1em; 
+	#logo img {
+		width: 70%;
+		margin: 0 3em; 
+	}
+	
+	#cta h1{
+		font-size: 1.35em;
+	}
+
+	.overlay-text {
+		font-size: 1.1em;
+	}	
+	
+	#featured-services h3 {
+		font-size: 1em;
 	}
 
 	.featured-service {
 		float: left; 
 		width: 46%; 
 	}
-
 }
