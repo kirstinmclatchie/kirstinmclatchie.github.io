@@ -475,6 +475,35 @@ footer a {
 
 }
 
+@media screen and (max-width: 600px) {
+	
+	header {
+		height: 250px; 
+	}
+	
+	h1 {
+		font-size: 4em; 
+	}
+	
+	nav { 
+	 top: 2.5em;  
+	}
+	
+	.title-one { 
+	 font-size: .9em;
+	}
+	
+	.title-three{
+		font-size:  .9em; 
+	}
+	
+	.verse {
+		width: 45%;
+		float: left;
+	  margin: .5em;
+
+	}
+}
 @media screen and (max-width: 360px) {
 
 header {
