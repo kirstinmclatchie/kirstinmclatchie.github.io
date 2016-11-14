@@ -165,7 +165,7 @@ address {
 
 /* CTA */
 
-#cta {
+#cta h1{
 	font-size: 1.75em; 
 	font-weight: 300; 
 }
