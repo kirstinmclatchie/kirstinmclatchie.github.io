@@ -1,0 +1,154 @@
+/***** BASE STYLES *****/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #000000;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width: {
+    width: 50%;
+    float: left;
+}
+
+.third-width {
+    width: 32.33%;
+    float: left;
+}
+
+/* HEADER */
+header {
+    height: 100px;
+}
+
+header h1 { 
+    font-size: 30px; 
+    font-weight: 700;
+    float: left;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    padding-top: 20px;
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #77a466;
+    padding-left: 25px; 
+}
+
+#hero img {
+    clear: both;
+    border-top: 4px solid #77a466;
+    border-bottom: 4px solid #77a466;
+    clear: both;
+}
+
+/* WELCOME */
+
+#welcome .full-width {
+    padding: 0;
+}
+
+#welcome h2 {
+    font-weight: 700;
+    font-size: 18px; 
+    color: #77a466;
+    text-transform: uppercase;
+    padding: 10px 0 5px 0;
+}
+ 
+#welcome p {
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+
+/* ABOUT */ 
+
+#about .third-width {
+    height: 200px;
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 30px 0;
+}
+
+#about h2 {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+#about p {
+    font-size: 16px; 
+    padding-left: 30px;
+    padding-right: 45px;
+}
+
+#specials h2 {
+    padding-left: 0;
+}
+
+#specials ul {
+    list-style: none;
+    padding: 0;
+}
+
+#specials a {
+    font-size: 16px;
+    color: #77a466;
+    text-decoration: none; 
+}
+
+#reviews {
+    border-left: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+}
+
+#reviews p {
+    line-height: 21px;
+
+}
+
+#contact p {
+    line-height: 24px;
+}
+
+
+/* FOOTER */
+
+footer {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+}
+
+footer span {
+    font-family: 'Lobster', cursive;
+    color: #77a466;
+    text-transform: none;
+    font-weight: normal;
+}
